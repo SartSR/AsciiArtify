@@ -1,4 +1,5 @@
-FROM python:3.9.2
-COPY server.py /server.py
+FROM python:latest
+WORKDIR /app
+COPY server.py ./
 ENTRYPOINT ["python3","-u", "server.py"]
 EXPOSE 8000
