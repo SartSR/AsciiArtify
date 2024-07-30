@@ -27,4 +27,6 @@ Compared to the above, it is heavier and slower, and has problems running on Mac
  ### In conclusion 
 I propose to use Kind as an orchestration mechanism for launching the AsciiArty application, it is fast, convenient and multi-platform (which is convenient for developers), this will allow you to work out the launch of the application in the prod with multi-staging mode (dev,stage,prod). Also, kind allows you to run a multi-node variant, so this will allow you to work out the CI process locally.
 
+There is a small demonstration deploy python http-echo app (getlocalhostname) in Kind
+https://asciinema.org/a/dtkY0OlYWEjVOZgFtpSAXyodX
 
