@@ -3,4 +3,4 @@
  2. k port-forward svc/argocd-server -n argocd 8088:443&
  5066  k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 
- Please take a look https://github.com/SartSR/AsciiArtify/blob/main/ArgoCD_login.gif in main branche and and workong demonstration application MVP model  https://github.com/SartSR/AsciiArtify/blob/main/MVP_with_curl.gif
+ Please take a look https://github.com/SartSR/AsciiArtify/blob/main/ArgoCD-login.gif in main branche
